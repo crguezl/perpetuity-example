@@ -1,0 +1,19 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    moped (1.5.2)
+    perpetuity (1.0.0.beta5)
+    perpetuity-mongodb (1.0.0.beta)
+      moped
+      perpetuity (~> 1.0.0.beta)
+    perpetuity-postgres (0.0.4)
+      perpetuity (~> 1.0.0.beta5)
+      pg
+    pg (0.17.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  perpetuity-mongodb (= 1.0.0.beta)
+  perpetuity-postgres
